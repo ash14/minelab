@@ -186,7 +186,7 @@ select
 		&:before
 			@extend .fa
 			margin-right: .5em
-			vertical-align: middle
+			vertical-align: baseline
 
 		&.my-page
 			@extend .fa-dashboard
@@ -217,6 +217,9 @@ select
 
 		&.questions
 			@extend .fa-support
+
+		&.login
+			@extend .fa-sign-in
 
 		&.my-account
 			@extend .fa-user
@@ -294,9 +297,6 @@ select
 				img.gravatar
 					top: 0
 					margin-right: .5em
-
-		a:before
-			margin-right: 0
 
 		.menu-children
 			width: 18em

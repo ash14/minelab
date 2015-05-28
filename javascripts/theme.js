@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 		});
 
 		$('#account:not(.cms) a').each(function() {
-			$(this).attr('title', $(this).text()).text('');
+			$(this).attr('title', $(this).text());
 		});
 
 		$('#account:not(.cms) .my-page').parent().detach().prependTo('#account ul:first');
