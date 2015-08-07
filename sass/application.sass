@@ -620,6 +620,19 @@ select
 			border: 0 !important
 			font-weight: inherit !important
 
+		#history
+			> div
+				position: relative
+
+				h4 
+					padding-bottom: 0
+					margin-bottom: -0.5em
+
+				.contextual
+					position: absolute
+					right: 2em
+					top: -1px
+
 #footer
 	+row
 	border-top: 1px solid $medium-grey
@@ -2736,7 +2749,7 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 .message .contextual, li p
 	margin-top: 0
 
-.splitcontent, div.journal, .syntaxhl .code pre
+.splitcontent, .syntaxhl .code pre
 	overflow: auto
 
 div#search-results-counts ul

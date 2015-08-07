@@ -4246,6 +4246,7 @@ li.change.change-D {
 
 .jstElements button[type="button"] {
   background: white;
+  color: #777;
   width: 1.8em;
   height: 1.8em;
   border-radius: 4px;
@@ -4695,6 +4696,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
       padding: 0 !important;
       border: 0 !important;
       font-weight: inherit !important; }
+    #main #content #history > div {
+      position: relative; }
+      #main #content #history > div h4 {
+        padding-bottom: 0;
+        margin-bottom: -0.5em; }
+      #main #content #history > div .contextual {
+        position: absolute;
+        right: 2em;
+        top: -1px; }
 
 #footer {
   display: block;
@@ -6553,7 +6563,7 @@ span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset
 .message .contextual, li p {
   margin-top: 0; }
 
-.splitcontent, div.journal, .syntaxhl .code pre {
+.splitcontent, .syntaxhl .code pre {
   overflow: auto; }
 
 div#search-results-counts ul {
