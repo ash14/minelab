@@ -4978,7 +4978,7 @@ table p {
   margin: 0; }
 
 .even, tr:nth-child(2n+2) {
-  background-color: #F9F9F9 !important; }
+  background-color: #F9F9F9; }
 
 a.sort, .sort.icon-add.checklist-new-only {
   padding-right: 16px;
